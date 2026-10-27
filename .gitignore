@@ -31,3 +31,28 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Secrets et configuration locale ###
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.jks
+application-local.properties
+application-prod.properties
+application-secret*.properties
+secrets/
+
+### Logs et fichiers temporaires ###
+*.log
+logs/
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+### Fichiers generes ###
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
